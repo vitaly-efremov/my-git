@@ -3,6 +3,7 @@ from dataclasses import dataclass
 
 @dataclass
 class Product:
+    id: int
     name: str
-    price: float | None
+    price: float
 
