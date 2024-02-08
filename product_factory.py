@@ -1,5 +1,5 @@
 from product import Product
 
 
-def create_product(name: str, price: float | None) -> Product:
-    return Product(name=name, price=price)
+def create_product(id_: int, name: str, price: float | None) -> Product:
+    return Product(id=id_, name=name, price=price)
